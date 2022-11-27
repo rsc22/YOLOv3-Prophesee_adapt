@@ -36,12 +36,13 @@ parser.add_argument("--class_path", type=str, default="data/kitti.names", help="
 parser.add_argument("--iou_thres", type=float, default=0.5, help="iou threshold required to qualify as detected")
 parser.add_argument("--conf_thres", type=float, default=0.8, help="object confidence threshold")
 parser.add_argument("--nms_thres", type=float, default=0.4, help="iou thresshold for non-maximum suppression")
-parser.add_argument("--n_cpu", type=int, default=1, help="number of cpu threads to use during batch generation")
+parser.add_argument("--n_cpu", type=int, default=2, help="number of cpu threads to use during batch generation")
 parser.add_argument("--img_size", type=int, default=416, help="size of each image dimension")
 parser.add_argument("--checkpoint_interval", type=int, default=10, help="interval between saving model weights")
 parser.add_argument("--checkpoint_dir", type=str, default="checkpoints", help="directory where model checkpoints are saved")
 parser.add_argument("--use_cuda", type=bool, default=True, help="whether to use cuda if available")
-parser.add_argument("--plot_losses", type=bool, default=True, help="whether to plot train loss vs test loss")
+parser.add_argument("--plot_losses", type=bool, default=False, help="whether to plot train loss vs test loss")
+parser.add_argument("--plot_interval", type=int, default=5, help="epochs interval to plot train loss vs test loss")
 opt = parser.parse_args()
 print(opt)
 my_dataset = opt.data_config_path
@@ -323,15 +324,15 @@ def do_training():
             print("New Best AP appear !!! %f" % best_mAP)
             test_data_file.flush()
         
-        if opt.plot_losses:
+        if opt.plot_losses and epoch // opt.plot_interval == 0:
             """Actually, it is plotting precision"""
             if epoch > 0:
                 train_loss.append(model.losses["precision"])
                 test_loss.append(mAP)
-                ax = plot_losses(train_loss, test_loss, epoch, ax)
+                plot_losses(train_loss, test_loss, epoch)
             else:
                 train_loss, test_loss = [model.losses["precision"]], [mAP]
-                fig, ax = plot_losses(train_loss, test_loss, epoch)
+                plot_losses(train_loss, test_loss, epoch)
 
         
     loss_data_file.close()
