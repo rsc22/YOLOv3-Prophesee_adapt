@@ -1,0 +1,7 @@
+/checkpoints
+/weights
+/data/proph/image/test
+/data/proph/image/train
+/data/proph/image/val
+/loss data.txt
+/test_data.txt
