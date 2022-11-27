@@ -1,0 +1,16 @@
+F:\Documentos\Data_Science\Master\UOC_Ingenieria_Computacional_y_Matematica\Master_UOC\TFM\YOLO\PyTorch-YOLOv3-kitti\data\kitti\image\train\000000
+F:\Documentos\Data_Science\Master\UOC_Ingenieria_Computacional_y_Matematica\Master_UOC\TFM\YOLO\PyTorch-YOLOv3-kitti\data\kitti\image\train\000001
+F:\Documentos\Data_Science\Master\UOC_Ingenieria_Computacional_y_Matematica\Master_UOC\TFM\YOLO\PyTorch-YOLOv3-kitti\data\kitti\image\train\000002
+F:\Documentos\Data_Science\Master\UOC_Ingenieria_Computacional_y_Matematica\Master_UOC\TFM\YOLO\PyTorch-YOLOv3-kitti\data\kitti\image\train\000003
+F:\Documentos\Data_Science\Master\UOC_Ingenieria_Computacional_y_Matematica\Master_UOC\TFM\YOLO\PyTorch-YOLOv3-kitti\data\kitti\image\train\000004
+F:\Documentos\Data_Science\Master\UOC_Ingenieria_Computacional_y_Matematica\Master_UOC\TFM\YOLO\PyTorch-YOLOv3-kitti\data\kitti\image\train\000005
+F:\Documentos\Data_Science\Master\UOC_Ingenieria_Computacional_y_Matematica\Master_UOC\TFM\YOLO\PyTorch-YOLOv3-kitti\data\kitti\image\train\000006
+F:\Documentos\Data_Science\Master\UOC_Ingenieria_Computacional_y_Matematica\Master_UOC\TFM\YOLO\PyTorch-YOLOv3-kitti\data\kitti\image\train\000007
+F:\Documentos\Data_Science\Master\UOC_Ingenieria_Computacional_y_Matematica\Master_UOC\TFM\YOLO\PyTorch-YOLOv3-kitti\data\kitti\image\train\000008
+F:\Documentos\Data_Science\Master\UOC_Ingenieria_Computacional_y_Matematica\Master_UOC\TFM\YOLO\PyTorch-YOLOv3-kitti\data\kitti\image\train\000009
+F:\Documentos\Data_Science\Master\UOC_Ingenieria_Computacional_y_Matematica\Master_UOC\TFM\YOLO\PyTorch-YOLOv3-kitti\data\kitti\image\train\000010
+F:\Documentos\Data_Science\Master\UOC_Ingenieria_Computacional_y_Matematica\Master_UOC\TFM\YOLO\PyTorch-YOLOv3-kitti\data\kitti\image\train\000011
+F:\Documentos\Data_Science\Master\UOC_Ingenieria_Computacional_y_Matematica\Master_UOC\TFM\YOLO\PyTorch-YOLOv3-kitti\data\kitti\image\train\000012
+F:\Documentos\Data_Science\Master\UOC_Ingenieria_Computacional_y_Matematica\Master_UOC\TFM\YOLO\PyTorch-YOLOv3-kitti\data\kitti\image\train\000013
+F:\Documentos\Data_Science\Master\UOC_Ingenieria_Computacional_y_Matematica\Master_UOC\TFM\YOLO\PyTorch-YOLOv3-kitti\data\kitti\image\train\000014
+F:\Documentos\Data_Science\Master\UOC_Ingenieria_Computacional_y_Matematica\Master_UOC\TFM\YOLO\PyTorch-YOLOv3-kitti\data\kitti\image\train\000015
